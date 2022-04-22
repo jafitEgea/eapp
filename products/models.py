@@ -1,8 +1,6 @@
-from itertools import product
-from unicodedata import name
 from sqlalchemy import Column, Integer, String, Float, Text, ForeignKey
 from sqlalchemy.orm import relationship
-from database.session import Base
+from database.db import Base
 
 
 class Category(Base):
