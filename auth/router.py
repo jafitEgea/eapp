@@ -1,6 +1,5 @@
 from typing import Any
 from fastapi import APIRouter, Depends, status, HTTPException
-import fastapi
 from fastapi.security import OAuth2PasswordRequestForm
 from sqlalchemy.orm import Session
 from core.security import create_access_token
